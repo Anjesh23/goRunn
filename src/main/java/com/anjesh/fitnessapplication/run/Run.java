@@ -8,6 +8,7 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 
 public record Run(
+
         Integer id,
         @NotEmpty
         String title,
